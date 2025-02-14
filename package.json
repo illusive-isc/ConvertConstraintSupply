@@ -1,6 +1,6 @@
 {
   "name": "jp.illusive-isc.ma-convert-constraint-supply",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "displayName": "ConvertConstraintSupply",
   "description": "IllMAConvertConstraintSupply",
   "unity": "2022.3",
