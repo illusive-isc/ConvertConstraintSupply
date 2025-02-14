@@ -1,0 +1,19 @@
+{
+    "name": "jp.illusive_isc.IllMAConvertConstraintSupply",
+    "rootNamespace": "jp.illusive_isc",
+    "references": [
+        "nadena.dev.modular-avatar.core",
+        "VRC.SDKBase"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
