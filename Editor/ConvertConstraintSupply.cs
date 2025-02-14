@@ -6,8 +6,8 @@ using VRC.SDKBase;
 
 public class ConstraintChecker
 {
-    [MenuItem("GameObject/Modular Avatar/Add Component Constraint", false, 10)]
-    static void AddComponentToConstrainedObjects()
+    [MenuItem("GameObject/Modular Avatar/Add Convert Constraint", false, 10)]
+    static void AddConvertConstrained()
     {
         GameObject selectedObject = Selection.activeGameObject;
 
@@ -37,15 +37,15 @@ public class ConstraintChecker
                 {
                     child.gameObject.AddComponent<ModularAvatarConvertConstraints>();
                     count++;
-                    Debug.Log($"Added MyCustomComponent to: {child.name}");
+                    Debug.Log($"Added MAConvertConstraint to: {child.name}");
                 }
             }
         }
 
-        Debug.Log($"処理完了: {count} 個のオブジェクトに MyCustomComponent を追加しました。");
+        Debug.Log($"処理完了: {count} 個のオブジェクトに MAConvertConstraint を追加しました。");
     }
 
-    [MenuItem("GameObject/Modular Avatar/Add Component Constraint", true)]
+    [MenuItem("GameObject/Modular Avatar/Add Convert Constraint", true)]
     static bool ValidateAddComponentToConstrainedObjects()
     {
         GameObject selectedObject = Selection.activeGameObject;
